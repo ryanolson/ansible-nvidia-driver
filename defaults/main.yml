@@ -1,0 +1,7 @@
+nvidia_version: "375.26"
+nvidia_packages:
+  - cuda-drivers
+# - cuda              # Installs all CUDA Toolkit and Driver packages. Handles upgrading to the next version when released.
+# - cuda-8-0          # Installs all CUDA Toolkit and Driver packages. Remains at version 8.0 on upgrade
+# - cuda-toolkit-8-0  # Installs all CUDA Toolkit packages required to run CUDA applications, as well as the Driver packages.
+# - cuda-runtime-8-0  # Installs all CUDA Toolkit packages required to run CUDA applications, as well as the Driver packages.
